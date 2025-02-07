@@ -5,11 +5,11 @@ function App() {
   const email = "bhumithummar7@gmail.com";
   return (
     <div
-      className="card shadow-lg p-4 rounded-4 border-0"
+      className="card shadow-lg p-4 rounded-4 border-0 my-4"
       style={{ background: "#F8F9FA" }}>
       <img
         src={logo}
-        alt="logo"
+        alt="logo English Kids Learning App"
         height={80}
         className="object-fit-contain mb-3"
       />
