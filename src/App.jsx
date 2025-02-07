@@ -1,4 +1,5 @@
 import AccordionSec from "./Components/AccordionSec";
+import logo from "./assets/logo.png";
 
 function App() {
   const email = "bhumithummar7@gmail.com";
@@ -6,6 +7,12 @@ function App() {
     <div
       className="card shadow-lg p-4 rounded-4 border-0"
       style={{ background: "#F8F9FA" }}>
+      <img
+        src={logo}
+        alt="logo"
+        height={80}
+        className="object-fit-contain mb-3"
+      />
       <h1
         className="text-center text-primary mb-4"
         style={{ fontWeight: "600", fontSize: "1.8rem" }}>
