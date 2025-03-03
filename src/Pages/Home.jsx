@@ -9,7 +9,7 @@ function App() {
   return (
     <div
       className="card shadow-lg p-4 rounded-4 border-0 my-4"
-      style={{ background: "#F8F9FA" }}>
+      style={{ background: "#F8F9FA" , textAlign: "center"}}>
       <img
         src={logo}
         alt="logo English Kids Learning App"
