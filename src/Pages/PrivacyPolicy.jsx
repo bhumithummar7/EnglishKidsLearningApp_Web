@@ -2,8 +2,7 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div 
-    style={styles.container}>
+    <div style={styles.container}>
       <h2 style={styles.heading}>🔒 Privacy Policy</h2>
 
       <h2 style={styles.subHeading}>1. Introduction</h2>
@@ -29,9 +28,7 @@ const PrivacyPolicy = () => {
         <li>✅ <strong>COPPA (Children’s Online Privacy Protection Act)</strong></li>
         <li>✅ <strong>GDPR-K (Children’s Data Protection Regulation)</strong></li>
       </ul>
-      <p>
-        We ensure:
-      </p>
+      <p>We ensure:</p>
       <ul>
         <li>✅ <strong>Only child-appropriate, non-personalized contextual ads</strong> are shown.</li>
         <li>✅ <strong>No behavioral tracking or retargeting</strong>.</li>
@@ -59,7 +56,7 @@ const PrivacyPolicy = () => {
       <h2 style={styles.subHeading}>5. Data Sharing Policy</h2>
       <p>
         We do <strong>not</strong> share, sell, or distribute any user data. Ads shown in our app are provided by 
-        <strong>Google AdMob</strong>, which operates under its own privacy policy.
+        <strong> Google AdMob</strong>, which operates under its own privacy policy.
       </p>
 
       <h2 style={styles.subHeading}>6. Data Security</h2>
@@ -81,11 +78,23 @@ const PrivacyPolicy = () => {
         indicates acceptance of the updated policy.
       </p>
 
-      <h2 style={styles.subHeading}>9. Contact Us</h2>
+      <h2 style={styles.subHeading}>9. Subscription Information</h2>
+      <p>
+        The app offers <strong>auto-renewable subscriptions</strong> for premium content (monthly and yearly plans).
+        All subscription transactions are processed securely via your Apple ID and managed through the Apple App Store.
+      </p>
+      <ul>
+        <li>✔️ We do not store or access your billing or payment information.</li>
+        <li>✔️ Subscription management (renewals, cancellations) is handled through your Apple device settings.</li>
+        <li>✔️ You may cancel your subscription at any time by navigating to your Apple ID account settings.</li>
+        <li>✔️ No user login or personal account is required for subscription access.</li>
+      </ul>
+
+      <h2 style={styles.subHeading}>10. Contact Us</h2>
       <p>
         If you have any questions or concerns about this Privacy Policy, please contact us:
       </p>
-      <p><strong>📧 Email:</strong> <a href="mailto:bhumithummar7@gmail.com">bhumithummar7@gmail.com</a></p>
+      <p><strong>📧 Email:</strong> <a href="mailto:works.wald@gmail.com">works.wald@gmail.com</a></p>
 
       <p>
         Thank you for using the <strong>English Kids Learning App</strong>. We are committed to providing a 

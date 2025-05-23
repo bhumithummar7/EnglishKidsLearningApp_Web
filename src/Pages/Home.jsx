@@ -5,7 +5,7 @@ import AccordionSec from "../Components/AccordionSec";
 import { Link } from "react-router-dom";
 
 function App() {
-  const email = "bhumithummar7@gmail.com";
+  const email = "works.wald@gmail.com";
   return (
     <div
       className="card shadow-lg p-4 rounded-4 border-0 my-4"
@@ -78,14 +78,18 @@ function App() {
       </div>
       <div className="mt-4 text-center">
         <h2 className="text-secondary" style={{ fontSize: "1.5rem" }}>
-          🔒 Privacy Policy
+          🔒 Privacy & Terms
         </h2>
         <p className="text-muted">
-          We value your privacy. Please review our
+          We value your privacy and trust. Please review our{" "}
           <Link to="/privacy-policy" className="ms-1 text-decoration-none">
             Privacy Policy
           </Link>{" "}
-          for details on how we manage your data.
+          and{" "}
+          <Link to="/terms-of-service" className="ms-1 text-decoration-none">
+            Terms of Service
+          </Link>{" "}
+          for more details.
         </p>
       </div>
     </div>
