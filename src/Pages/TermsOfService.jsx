@@ -11,12 +11,19 @@ const TermsOfService = () => {
       </p>
 
       <h2 style={styles.subHeading}>2. Subscription and Payments</h2>
-      <ul>
-        <li>Your subscription is an auto-renewable monthly plan that will automatically renew unless canceled at least 24 hours before the end of the current period.</li>
-        <li>Payments are processed securely through Apple App Store or Google Play Store.</li>
-        <li>You are responsible for managing your subscription through your device’s account settings.</li>
-        <li>We do not provide refunds for partial subscription periods or unused services.</li>
-      </ul>
+<ul>
+  <li>We offer two auto-renewable subscriptions:
+    <ul>
+      <li><strong>Monthly Plan</strong> – $3.99/month</li>
+      <li><strong>Yearly Plan</strong> – $44.99/year</li>
+    </ul>
+  </li>
+  <li>Payment will be charged to your Apple ID account at the time of confirmation.</li>
+  <li>The subscription automatically renews unless canceled at least 24 hours before the end of the current period.</li>
+  <li>You can manage or cancel your subscription in your App Store account settings after purchase.</li>
+  <li>We do not offer refunds for unused portions of a subscription.</li>
+</ul>
+
 
       <h2 style={styles.subHeading}>3. Use of the App</h2>
       <ul>
@@ -49,8 +56,13 @@ const TermsOfService = () => {
 
       <h2 style={styles.subHeading}>8. Governing Law</h2>
       <p>
-        These Terms are governed by the laws of <strong>[Your Jurisdiction]</strong>. Any disputes will be resolved in courts located in <strong>[Your Jurisdiction]</strong>.
-      </p>
+  These Terms are governed by the laws of <strong>India</strong>. Any disputes will be resolved in courts located in <strong>Surat, Gujarat</strong>.
+</p>
+<h2 style={styles.subHeading}>10. Apple Terms of Use</h2>
+<p>
+  By using our app on iOS, you also agree to Apple's standard <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" style={{color: "#007BFF"}}>Licensed Application End User License Agreement (EULA)</a>.
+</p>
+
 
       <h2 style={styles.subHeading}>9. Contact Us</h2>
       <p>
